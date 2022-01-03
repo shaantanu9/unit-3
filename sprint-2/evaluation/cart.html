@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cart Page</title>
+	<link rel="stylesheet" href="./style/index.css">
+	<link rel="stylesheet" href="./style/cart.css">
+</head>
+<body>
+	<center>
+		<h1>Cart Page</h1>
+	</center>
+	<nav>
+		<div id="home" onclick="loc(this.id)" >Home</div>
+		<div id="login" onclick="loc(this.id)" >Login</div>
+		<div id="signup" onclick="loc(this.id)" >Signup</div>
+		<div id="menu" onclick="loc(this.id)">Menu</div>
+		<div id="cart" onclick="loc(this.id)">Cart</div>
+		<div id="checkout" onclick="loc(this.id)">Checkout</div>
+	</nav>
+<div class="productWrapper"></div>
+
+
+<button onclick="loc(this.id)" id="checkout" >Proceed to CheckOut</button>
+
+<div class="totalPrice">	0
+</div>	
+	
+
+</body>
+<script src="./script/nav.js"></script>
+<script src="./script/cart.js"></script>
+</html>

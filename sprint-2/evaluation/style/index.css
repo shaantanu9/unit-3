@@ -1,0 +1,17 @@
+.class
+{
+	display: block;
+	color: #00ff00;
+}
+
+h1{
+	color: red;
+}
+
+nav{ display:flex;
+	flex-flow: row;
+	/* justify-content: center; */
+	justify-content: space-between;
+	/* space-between; */
+flex-direction: row-reverse;
+}

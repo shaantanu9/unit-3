@@ -53,18 +53,18 @@ cartArray.forEach(function(item, index){
 
 }
 
-function del2Cart(id){
+// function del2Cart(id){
 
 
-let cartArray = JSON.parse(localStorage.getItem('cart'))
+// let cartArray = JSON.parse(localStorage.getItem('cart'))
 
 
-const removeNumber = (arr, num) => arr.filter(el.name => el.name !== num);
-numbers = removeNumber(cartArray, id);
+// const removeNumber = (arr, num) => arr.filter(el.name => el.name !== num);
+// numbers = removeNumber(cartArray, id);
 
-localStorage.setItem('cart', JSON.stringify(numbers));
+// localStorage.setItem('cart', JSON.stringify(numbers));
 
-let cartArrayAfter = JSON.parse(localStorage.getItem('cart'))
+// let cartArrayAfter = JSON.parse(localStorage.getItem('cart'))
 
 
 showCart(cartArrayAfter);
